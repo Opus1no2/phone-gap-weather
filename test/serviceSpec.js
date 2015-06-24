@@ -3,7 +3,7 @@ describe('services', function(){
 
   var getWeather,
       deviceReady,
-      $httpBackend,
+     $httpBackend,
       getCurrentPosition;
 
   beforeEach(inject(function(_getWeather_, _deviceReady_, _getCurrentPosition_, $httpBackend, $document, $window, $rootScope) {
